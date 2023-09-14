@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <locale.h>
+#include <conio.h>
+#include <stdlib.h>
+int main(void)
+{
+	
+	char x;
+	printf("1, Inclusão\n");
+	printf("2, Alteração\n");
+	printf("3, Exclusão\n");
+	printf("Digite sua Opção\n");
+	x=getchar();
+	switch(x)
+	{
+	case'1':
+		printf("Escolheu Inclusão\n");
+		break;
+	case'2':
+		printf("Escolheu Alteração\n");
+		break;
+	case'3':
+		printf("Escolheu Exclusão");
+		break;
+	default:
+		printf("Escolheu opçao invalida");
+	}
+	getche();
+	return 0;
